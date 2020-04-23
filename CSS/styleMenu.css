@@ -1,0 +1,195 @@
+header 
+{
+    width: 100%;
+    height: 75px;
+    background-color: #579C87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FDCB46;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: rgb(78, 26, 1);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 45px;
+    width: 70%;
+    min-width: 320px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 8px -1px lightgrey;
+}
+
+body
+{
+    background-color: white;
+}
+
+
+article
+{
+    width: 500px;
+}
+
+#logo_haut
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#logo_haut h1
+{
+    margin-top: 5px;
+}
+
+
+
+.titre, #titre_entrée, #titre_plat, #titre_dessert
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div h4
+{
+    display: inline;
+    background-color: rgba(255, 0, 0, 0.5);
+    
+}
+
+
+.plat div, #entrée div, #plat div, #dessert div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dessert
+{
+    margin-bottom: 80px;
+}
+
+
+.prix
+{
+    font-weight: 600;
+}
+
+
+/* FOOTER */
+
+
+footer li:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  footer nav
+{
+    background-color: #579C87;
+    height: 100%;
+}
+
+nav li
+{
+    margin-left: -20px;
+    margin-right: 60px;
+}
+
+footer
+{
+    position: fixed;
+    width: 100%;
+    height: 42px;
+    bottom: 0;
+    left: 0;
+}
+
+footer ul
+{
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #FDCB46;
+    font-family: sans-serif;
+}
+
+.conteneur
+{
+    position: relative;
+}
+
+@keyframes underline 
+{
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+.conteneur:hover .underline, .conteneur:hover .underline_1, .conteneur:hover .underline_2, .conteneur:hover .underline_3
+{
+    animation: underline 0.5s forwards;
+}
+
+
+
+@media all and (max-width: 760px)
+{
+   
+
+    .plat div, #entrée div, #plat div, #dessert div
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .plat .prix, #entrée .prix, #dessert .prix
+    {
+        margin: 0;
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+
+    .trait, .trait_1, .trait_2, .trait_3
+    {
+        width: 20%;
+        height: 2px;
+    }
+}
+

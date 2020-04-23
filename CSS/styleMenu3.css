@@ -1,0 +1,87 @@
+@font-face {
+ 
+    font-family: 'niconne';
+    src: url('../Res/Fonts/niconne/Niconne-Regular-webfont.eot'),
+         url('../Res/Fonts/niconne/Niconne-Regular-webfont.svg'),
+         url('../Res/Fonts/niconne/Niconne-Regular-webfont.ttf'),
+         url('../Res/Fonts/niconne/Niconne-Regular-webfont.woff');
+
+}
+
+
+main
+{
+    background-color: rgb(238, 245, 255);
+}
+
+body
+{
+    font-family: 'niconne';
+}
+
+.titre
+{
+    font-size: 28px;
+}
+
+#entrée, #plat, #dessert
+{
+    font-size: 21px;
+}
+
+#logo_haut
+{
+    font-size: 30px;
+    background: linear-gradient(98deg, rgba(62,34,163,1) 0%, rgba(145,159,225,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.trait_1, .trait_2, .trait_3
+{
+    width: 20%;
+    height: 4px;
+}
+
+.trait_1
+{
+    background-color:#3e22a3;
+}
+
+.trait_2
+{
+    background-color:#6075ca;
+}
+
+.trait_3
+{
+    background-color:#919fff;
+}
+
+.underline_1, .underline_2, .underline_3
+{
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 70%;
+    left: 0;
+}
+
+.underline_1
+{
+    background-color: #3e22a3;
+}
+
+
+.underline_2
+{
+    background-color: #6075ca;
+}
+
+
+.underline_3
+{
+    background-color: #919fff;
+}
+

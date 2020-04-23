@@ -1,0 +1,71 @@
+@font-face {
+
+    
+    font-family: 'caveat';
+    src: url('../Res/Fonts/caveat/caveat-regular-webfont.eot'),
+         url('../Res/Fonts/caveat/caveat-regular-webfont.svg'),
+         url('../Res/Fonts/caveat/caveat-regular-webfont.ttf'),
+         url('../Res/Fonts/caveat/caveat-regular-webfont.woff');
+
+}
+
+
+main
+{
+    background-color: #FDFFFD;
+}
+
+body
+{
+    font-family: 'caveat';
+}
+
+.titre
+{
+    font-size: 28px;
+}
+
+#entrée, #plat, #dessert
+{
+    font-size: 21px;
+}
+
+#logo_haut
+{
+    font-size: 30px;
+    background: linear-gradient(98deg, rgba(30,154,35,1) 0%, rgba(110,228,116,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.trait_1, .trait_2, .trait_3
+{
+    width: 20%;
+    height: 4px;
+}
+
+.trait_1
+{
+    background: linear-gradient(98deg, rgba(30,154,35,1) 0%, rgba(110,228,116,1) 100%);
+    -webkit-text-fill-color: transparent;
+}
+
+.trait_2
+{
+    background: linear-gradient(98deg, rgba(110,228,116,1) 0%, rgba(30,154,35,1) 100%);
+    -webkit-text-fill-color: transparent;
+}
+
+.underline
+{
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background: linear-gradient(98deg, rgba(30,154,35,1) 0%, rgba(110,228,116,1) 100%);
+    background-clip: border-box;
+    top: 70%;
+    left: 0;
+}
+
+

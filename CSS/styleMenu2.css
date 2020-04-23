@@ -1,0 +1,104 @@
+@font-face {
+
+    font-family: 'soria';
+    src: url('../Res/Fonts/soria/soria-font-webfont.eot'),
+         url('../Res/Fonts/soria/soria-font-webfont.svg'),
+         url('../Res/Fonts/soria/soria-font-webfont.ttf'),
+         url('../Res/Fonts/soria/soria-font-webfont.woff');
+}
+
+
+main
+{
+    background-color: #FFF5FE;
+}
+
+body
+{
+    font-family: 'soria';
+}
+
+#logo_haut
+{
+    font-family: 'soria';
+    font-size: 27px;
+    margin: 70px;
+    background: linear-gradient(98deg, rgba(244,152,81,1) 0%, rgba(90,110,255,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#titre_entrée, #titre_plat, #titre_dessert
+{
+    font-size: 21px;
+}
+
+#entrée, #plat, #dessert
+{
+    font-size: 19px
+}
+
+#entrée, #titre_entrée
+{
+    color:#cf7b39;
+}
+
+#plat, #titre_plat
+{
+    color: #cb8bcd;
+}
+
+#dessert, #titre_dessert
+{
+    color:#623fc6;
+}
+
+.trait_1, .trait_2, .trait_3
+{
+    width: 22%;
+    height: 5px;
+}
+
+.trait_1
+{
+    background-color:#cf7b39;
+}
+
+.trait_2
+{
+    background-color:#cb8bcd;
+}
+
+.trait_3
+{
+    background-color:#623fc6;
+}
+
+
+.underline_1, .underline_2, .underline_3
+{
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 70%;
+    left: 0;
+}
+
+.underline_1
+{
+    background-color: #cf7b39;
+}
+
+
+.underline_2
+{
+    background-color: #cb8bcd;
+}
+
+
+.underline_3
+{
+    background-color: #623fc6;
+}
+

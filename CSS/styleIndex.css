@@ -1,0 +1,360 @@
+@keyframes animationDots
+{
+    0% { opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@font-face {
+   
+    font-family: 'blackjack';
+    src: url('../Res/Fonts/blackjack/blackjack-webfont.eot'),
+         url('../Res/Fonts/blackjack/blackjack-webfont.svg'),
+         url('../Res/Fonts/blackjack/blackjack-webfont.ttf'),
+         url('../Res/Fonts/blackjack/blackjack-webfont.woff');
+}
+
+@font-face {
+
+    
+    font-family: 'caveat';
+    src: url('../Res/Fonts/caveat/caveat-regular-webfont.eot'),
+         url('../Res/Fonts/caveat/caveat-regular-webfont.svg'),
+         url('../Res/Fonts/caveat/caveat-regular-webfont.ttf'),
+         url('../Res/Fonts/caveat/caveat-regular-webfont.woff');
+
+}
+
+@font-face {
+
+    
+    font-family: 'niconne';
+    src: url('../Res/Fonts/niconne/Niconne-Regular-webfont.eot'),
+         url('../Res/Fonts/niconne/Niconne-Regular-webfont.svg'),
+         url('../Res/Fonts/niconne/Niconne-Regular-webfont.ttf'),
+         url('../Res/Fonts/niconne/Niconne-Regular-webfont.woff');
+
+}
+
+@font-face {
+
+    font-family: 'soria';
+    src: url('../Res/Fonts/soria/soria-font-webfont.eot'),
+         url('../Res/Fonts/soria/soria-font-webfont.svg'),
+         url('../Res/Fonts/soria/soria-font-webfont.ttf'),
+         url('../Res/Fonts/soria/soria-font-webfont.woff');
+}
+
+@font-face {
+
+    font-family: 'abha';
+    src: url('../Res/Fonts/Abha/AbhayaLibre-Regular-webfont.eot'),
+         url('../Res/Fonts/Abha/AbhayaLibre-Regular-webfont.svg'),
+         url('../Res/Fonts/Abha/AbhayaLibre-Regular-webfont.ttf'),
+         url('../Res/Fonts/Abha/AbhayaLibre-Regular-webfont.woff');
+}
+
+header 
+{
+    width: 100%;
+    height: 75px;
+    background-color: #579C87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FDCB46;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#bloc_page
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.menu
+{
+    width: 360px;
+    min-width: 280px;
+    height: 515px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 8px -1px lightgrey;
+    margin-bottom: 30px;
+    margin: 30px;
+}
+
+
+
+/* MENUS */
+
+
+.menu a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.menu h3
+{
+    margin-top: 5px;
+}
+
+.menu:hover>i, .menu:hover>h4, .menu:hover>h3
+{
+    animation: zoom 1s forwards;
+
+}
+
+@keyframes zoom
+{
+    from {opacity: 0.5; transform: scale(1);}
+    to {opacity: 1; transform: scale(2);}
+}
+
+.menu_1
+{
+    background-color: #FCDFDB;
+}
+
+
+.menu_1 h3
+{
+    font-family: 'abha';
+    font-size: 30px;
+}
+
+.menu_1 h3 a 
+{
+    color: rgb(109, 34, 0);
+}
+
+.menu_1 h4
+{
+    font-family: 'Blackjack';
+    font-size: 20px;
+    color: rgb(109, 34, 0);
+}
+
+.menu_2
+{
+    background-color: #FFF5FE;
+}
+
+.menu_2 h3
+{
+    font-family: 'abha';
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.menu_2 h3 a
+{
+    color: #f49851;
+}
+
+.menu_2 h4
+{
+    font-family: 'soria';
+    font-size: 20px;
+    margin-top: 40px;
+    background: linear-gradient(98deg, rgba(244,152,81,1) 0%, rgba(90,110,255,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu_3
+{
+    background-color: rgb(238, 245, 255);
+}
+
+.menu_3 h3
+{
+    font-size: 30px;
+    font-family: 'abha';
+}
+
+.menu_3 h3 a
+{
+    color: #919ffe;
+}
+
+.menu_3 h4
+{
+    font-family: 'niconne';
+    font-size: 24px;
+    background: linear-gradient(98deg, rgba(47,75,149,1) 0%, rgba(145,159,254,1) 100%);   
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.menu_4
+{
+    background-color: #FDFFFD;
+}
+
+.menu_4 h4
+{
+    font-family: 'caveat';
+    font-size: 26px;
+    background: linear-gradient(98deg, rgba(30,154,35,1) 0%, rgba(110,228,116,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.menu_4 h3
+{
+    font-family: 'abha';
+    font-size: 30px;
+}
+
+.menu_4 h3 a 
+{
+    color: #6ee474;
+}
+
+.fa-music
+{
+    font-size: 30px;
+    background: -webkit-linear-gradient( #FFA754, #FF5F5C);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+
+
+
+#prochainement
+{
+    width: 210px;
+    background-color: #579C87;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto 90px auto;
+    font-family: sans-serif;
+    color: #FDCB46;
+    font-size: 19px;
+}
+
+.dots
+{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 5px;
+    background-color: #FDCB46;
+    animation: animationDots 1s infinite linear;
+}
+
+.dots:nth-child(1)
+{
+    animation-delay: 0.3s;
+}
+
+.dots:nth-child(2)
+{
+    animation-delay: 0.6s;
+}
+
+
+footer nav
+{
+    background-color: #579C87;
+    height: 100%;
+}
+
+nav li
+{
+    margin-left: -20px;
+    margin-right: 60px;
+}
+
+footer
+{
+    position: fixed;
+    width: 100%;
+    height: 42px;
+    bottom: 0;
+    left: 0;
+}
+
+footer ul
+{
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #FDCB46;
+    font-family: sans-serif;
+}
+
+footer li:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+@media all and (min-width: 1600px) and (max-width: 2200px)
+{
+
+.menu
+{
+    width: 550px;
+    height: 720px;
+}
+
+@media all and (min-width: 2201px)
+{
+
+.menu
+{
+    width: 800px;
+    height: 1000px;
+}
+}
+}

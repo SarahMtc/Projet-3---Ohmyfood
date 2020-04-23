@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'niconneregular';
+    src: url('Niconne-Regular-webfont.eot');
+    src: url('Niconne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Niconne-Regular-webfont.woff2') format('woff2'),
+         url('Niconne-Regular-webfont.woff') format('woff'),
+         url('Niconne-Regular-webfont.ttf') format('truetype'),
+         url('Niconne-Regular-webfont.svg#niconneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

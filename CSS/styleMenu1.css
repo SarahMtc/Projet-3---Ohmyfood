@@ -1,0 +1,79 @@
+@font-face {
+   
+    font-family: 'blackjack';
+    src: url('../Res/Fonts/blackjack/blackjack-webfont.eot'),
+         url('../Res/Fonts/blackjack/blackjack-webfont.svg'),
+         url('../Res/Fonts/blackjack/blackjack-webfont.ttf'),
+         url('../Res/Fonts/blackjack/blackjack-webfont.woff');
+
+}
+
+main
+{
+    background-color: #FCDFDB;
+}
+
+body
+{
+    font-family: 'Blackjack';
+}
+
+.fa-music
+{
+    font-size: 30px;
+    background: -webkit-linear-gradient( #FFA754, #FF5F5C);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 10px;
+}
+
+.note_haut
+{
+    font-size: 60px;
+}
+
+#plat
+{
+    font-size: 19px;
+}
+
+.trait
+{
+    background-color: brown;
+    width: 25%;
+    height: 5px;
+}
+
+#logo_haut
+{
+    font-size: 30px;
+}
+
+.titre
+{
+    font-size: 25px;
+}
+
+#logo_bas
+{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.underline
+{
+    background: linear-gradient(98deg, rgb(214, 85, 46) 0%, rgb(255, 193, 58) 100%);
+    background-clip: border-box;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    top: 70%;
+    left: 0;
+}
